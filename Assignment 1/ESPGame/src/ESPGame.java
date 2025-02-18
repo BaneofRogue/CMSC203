@@ -9,7 +9,7 @@
  * Print your Name here: William Keller
 */
 
-package myself; // necessary to have a package to create a working class file.
+
 import java.util.Random; // used for random number generation
 import java.util.Scanner; // used for user inputs
 import java.io.*; // used for file handling
