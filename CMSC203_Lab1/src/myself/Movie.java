@@ -1,3 +1,4 @@
+package myself;
 
 /**
  * Movie class, represents a Movie object
@@ -9,7 +10,7 @@ public class Movie {
 	private String title;
 	private String rating;
 	private int  soldTickets;
-	 
+
 	/**
 	 * Default no-arg Constructor
 	 */
@@ -17,7 +18,7 @@ public class Movie {
 	{
 		title = "";
 		rating = "";
-		soldTickets = 0;	
+		soldTickets = 0;
 	}
 	/**
 	 * Copy Constructor that produces a deep copy of the argument
@@ -27,9 +28,9 @@ public class Movie {
 	{
 		title = m.title;
 		rating = m.rating;
-		soldTickets = m.soldTickets;	
+		soldTickets = m.soldTickets;
 	}
-	
+
 	/**
 	 * Constructor that takes data as input and sets them.
 	 * @param title the title of the movie
@@ -37,7 +38,7 @@ public class Movie {
 	 * @param soldTickets number of tickets sold at this theater
 	 */
 	public Movie(String title, String rating, int soldTickets) {
-	 
+
 		this.title = title;
 		this.rating = rating;
 		this.soldTickets = soldTickets;
@@ -79,15 +80,16 @@ public class Movie {
 	}
 	/**
 	 * sets number of sold tickets
-	 * @param soldTickets number of the soldTickets 
+	 * @param soldTickets number of the soldTickets
 	 */
 	public void setSoldTickets(int soldTickets) {
 		this.soldTickets = soldTickets;
-	}	
-	
+	}
+
 	/**
 	 * Returns a string with relevant movie information
 	 */
+	@Override
 	public String toString() {
 		return (this.title+" ("+this.rating+"): Tickets Sold: "+this.soldTickets);
 	}

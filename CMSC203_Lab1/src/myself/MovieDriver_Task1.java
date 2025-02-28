@@ -1,26 +1,12 @@
-/*
- * Class: CMSC203
- * Instructor: Ashique Tanveer
- * Description: MovieDriver is a simple driver utilizing the Movie class. It takes in user-input and demonstrates knowledge of loops and method calling.
- * Due: 02/28/2025
- * Platform/compiler: Eclipse IDE for Java Developers - 2024-12
- * I pledge that I have completed the programming assignment 
- * independently. I have not copied the code from a student or   
- * any source. I have not given my code to any student.
- * Print your Name here: William Keller
-*/
+package myself;
 
 import java.util.Scanner;
 
-public class MovieDriverTask2 {
-    public static void main(String[] args) {
-        // Create a Scanner obj to read from keyboard
-        Scanner scanner = new Scanner(System.in);
-
-        // Loop to handle multiple movie entries
-        String continueInput = "y";
-
-        while (continueInput.equalsIgnoreCase("y")) {
+public class MovieDriver_Task1 {
+		public static void main(String[] args) {
+	        // Create a Scanner obj to read from keyboard
+	        Scanner scanner = new Scanner(System.in);
+	        
             // Create a new movie obj
             Movie movie = new Movie();
 
@@ -49,15 +35,7 @@ public class MovieDriverTask2 {
             // I am following the pseudo code requirements.
             System.out.println(movie.toString());
 
-            // Ask the user if they want to enter another movie
-            System.out.println("Do you want to enter another? (y or n): ");
-            continueInput = scanner.nextLine();
-        }
-
-        // Print Goodbye message when the loop ends
-        System.out.println("Goodbye");
-
-        // Close the scanner
-        scanner.close();
-    }
+	        // Close the scanner
+	        scanner.close();
+	    }
 }
