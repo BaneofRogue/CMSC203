@@ -1,8 +1,8 @@
 /*
  * Class: CMSC203
  * Instructor: Ashique Tanveer
- * Description: 
- * Due Date: 2/28/25
+ * Description: The procedure class contains procedure informations.
+ * Due Date: 3/07/25
  * Platform/compiler: Eclipse IDE for Java Developers - 2024-12
  * I pledge that I have completed the programming assignment 
 * independently. I have not copied the code from a student or   

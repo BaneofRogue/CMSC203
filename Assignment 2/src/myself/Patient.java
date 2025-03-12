@@ -1,7 +1,7 @@
 /*
  * Class: CMSC203
  * Instructor: Ashique Tanveer
- * Description: 
+ * Description: The patient class contains the patient information.
  * Due Date: 3/07/25
  * Platform/compiler: Eclipse IDE for Java Developers - 2024-12
  * I pledge that I have completed the programming assignment 
