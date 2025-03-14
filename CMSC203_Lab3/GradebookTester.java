@@ -1,3 +1,15 @@
+/*
+ * Class: CMSC203
+ * Instructor: Ashique Tanveer
+ * Description: GradebookTester class that tests the GradeBook class with JUnit Test Cases.
+ * Due Date: 3/14/25
+ * Platform/compiler: Eclipse IDE for Java Developers - 2024-12
+ * I pledge that I have completed the programming assignment 
+* independently. I have not copied the code from a student or   
+* any source. I have not given my code to any student.
+ * Print your Name here: William Keller
+*/
+
 package myself;
 
 import junit.framework.TestCase;

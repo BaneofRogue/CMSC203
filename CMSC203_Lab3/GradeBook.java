@@ -1,3 +1,15 @@
+/*
+ * Class: CMSC203
+ * Instructor: Ashique Tanveer
+ * Description: GradeBook class is a class that allows the user to add scores, get the sum of the scores, get the minimum score, and get the final score after dropping the lowest score.
+ * Due Date: 3/14/25
+ * Platform/compiler: Eclipse IDE for Java Developers - 2024-12
+ * I pledge that I have completed the programming assignment 
+* independently. I have not copied the code from a student or   
+* any source. I have not given my code to any student.
+ * Print your Name here: William Keller
+*/
+
 package myself;
 
 import java.util.ArrayList;
